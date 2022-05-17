@@ -4,6 +4,7 @@ import org.springframework.data.annotation.Id;
 
 public class Book {
 
+  // Auto-generated ID for each book
   @Id private String id;
 
   private String title;
